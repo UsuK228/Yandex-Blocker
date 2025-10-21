@@ -12,20 +12,25 @@ go mod tidy
 ## Компиляция
 
 For Common (Without console) Program:
+
 Для Обычной (Без консольной) Программы:
+
 ```cmd
 go build -ldflags="-H windowsgui"
 ```
 Flag `-ldflags="-H windowsgui"` allows hide the console
+
 Флаг `-ldflags="-H windowsgui"` позволяет скрыть консоль
 
 For Debug (With console) Program:
+
 Для Дебаг (С консолью) Программы:
 ```cmd
 go build
 ```
 
 Please give a star)
+
 Пожалуйста дайте звездочку)
 
 
